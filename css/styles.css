@@ -1,0 +1,146 @@
+body {
+  color: #056676;
+  margin: 0;
+  text-align: center;
+  background-color: #EDF6E5;
+
+ }
+
+h1 {
+  color: #F38BA0;
+  font-size: 6rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Parisienne', cursive;
+}
+
+h2 {
+  color: #F38BA0;
+  font-family: 'Jaldi', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #CD5D7D;
+  font-family: 'Itim', sans-serif;
+}
+
+/* p {
+  line-height: 2;
+} */
+
+hr {
+  border: dotted #7DEDFF 7px;
+  border-bottom: none;
+  width: 10%;
+  margin: 50px auto;
+}
+
+.top-container {
+  background-color: #EDF6E5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+  background-color: #EDF6E5;
+}
+
+.bottom-container {
+  background-color: #72D6C9;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #CD5D7D;
+  font-family: 'Jaldi', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 230px;
+  top: 20px;
+  height: 130px;
+  width: 130px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 220px;
+  bottom: 170px;
+  height: 130px;
+  width: 130px;
+}
+
+.giphy {
+  width: 25%;
+  float: right;
+  margin-left: 10px;
+}
+
+.cisco {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  line-height: 1.4;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 20px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  font-family: 'Jaldi', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #09c9de;
+  background-image: -webkit-linear-gradient(top, #09c9de, #03ebeb);
+  background-image: -moz-linear-gradient(top, #09c9de, #03ebeb);
+  background-image: -ms-linear-gradient(top, #09c9de, #03ebeb);
+  background-image: -o-linear-gradient(top, #09c9de, #03ebeb);
+  background-image: linear-gradient(to bottom, #09c9de, #03ebeb);
+  text-decoration: none;
+}
